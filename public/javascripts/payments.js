@@ -223,8 +223,8 @@
     // Display the Pay button by mounting the Element in the DOM.
     paymentRequestButton.mount('#payment-request-button');
     // Replace the instruction.
-    document.querySelector('.instruction').innerText =
-      'Or enter your shipping and payment details below';
+    //document.querySelector('.instruction').innerText =
+    //  'Or enter your shipping and payment details below';
     // Show the payment request section.
     document.getElementById('payment-request').classList.add('visible');
   }
