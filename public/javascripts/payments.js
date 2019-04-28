@@ -208,6 +208,13 @@
   // Create the Payment Request Button.
   const paymentRequestButton = elements.create('paymentRequestButton', {
     paymentRequest,
+    style: {
+      paymentRequestButton: {
+        theme:  'light',
+        height: '800px',
+        maxheight: '800px',
+      },
+    }
   });
 
   // Check if the Payment Request is available (or Apple Pay on the Web).
