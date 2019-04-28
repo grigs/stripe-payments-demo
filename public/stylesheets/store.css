@@ -885,7 +885,6 @@ button:active {
 }
 
 /* Hiding payment request button */
-.__PrivateStripeElement,
-.__PrivateStripeElement iframe { 
+#payment-request-button iframe { 
   opacity: 0.01
 }
