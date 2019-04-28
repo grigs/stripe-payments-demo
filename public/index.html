@@ -20,9 +20,6 @@
       <a class="github" href="https://github.com/stripe/stripe-payments-demo">View on GitHub</a>
     </header>
     <div id="checkout">
-      <div id="payment-request">
-        <div id="payment-request-button"></div>
-      </div>
       <form id="payment-form" method="POST" action="/orders">
         <p class="instruction">Complete your shipping and payment details below</p>
         <section>
@@ -180,6 +177,9 @@
       </form>
       <div id="card-errors" class="element-errors"></div>
       <div id="iban-errors" class="element-errors"></div>
+      <div id="payment-request">
+        <div id="payment-request-button"></div>
+      </div>
     </div>
     <div id="confirmation">
       <div class="status processing">
@@ -232,8 +232,8 @@
               <td class="card-number">4000<span></span>0000<span></span>0000<span></span>3063</td>
             </tr>
             </table>
-          <p class="note"> 
-            See the <a href="https://stripe.com/docs/testing#cards" target="_blank">docs</a> for a full list of test cards. 
+          <p class="note">
+            See the <a href="https://stripe.com/docs/testing#cards" target="_blank">docs</a> for a full list of test cards.
             Non-card payments will redirect to test pages.
           </p>
         </div>
