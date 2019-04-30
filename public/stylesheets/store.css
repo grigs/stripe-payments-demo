@@ -885,6 +885,9 @@ button:active {
 }
 
 /* Hiding payment request button */
-#payment-request-button iframe { 
-  opacity: 0.01
+#payment-request-button button {
+  opacity: 0.01;
+  padding: 120px;
+  display: block;
+  height: auto;
 }
