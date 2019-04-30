@@ -216,6 +216,7 @@
 
     paymentRequestButton.addEventListener('click', () => {
       paymentRequest.show();
+      new Audio('/knock_brush.mp3').play();
     });
     // Replace the instruction.
     //document.querySelector('.instruction').innerText =
