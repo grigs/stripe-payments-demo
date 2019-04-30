@@ -214,6 +214,11 @@
       .getElementById('payment-request-button')
       .append(paymentRequestButton);
 
+    // When user finishes with payment popup, scroll to top
+    paymentRequest.on('paymentmethod', () => {
+      document.body.scrollTop = 0;
+    });
+
     paymentRequestButton.addEventListener('click', () => {
       paymentRequest.show();
       new Audio('/knock_brush.mp3').play();
