@@ -224,10 +224,10 @@
       //new Audio('/knock_brush.mp3').play();
     });
     // Replace the instruction.
-    //document.querySelector('.instruction').innerText =
+    document.querySelector('.instruction').innerText =
     //  'Or enter your shipping and payment details below';
     // Show the payment request section.
-    //document.getElementById('payment-request').classList.add('visible');
+    document.getElementById('payment-request').classList.add('visible');
   }
 
   /**
