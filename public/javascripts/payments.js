@@ -215,9 +215,9 @@
       .append(paymentRequestButton);
 
     // When user finishes with payment popup, scroll to top
-    paymentRequest.on('paymentmethod', () => {
-      document.body.scrollTop = 0;
-    });
+    //paymentRequest.on('paymentmethod', () => {
+    //  document.body.scrollTop = 0;
+    //});
 
     paymentRequestButton.addEventListener('click', () => {
       paymentRequest.show();
